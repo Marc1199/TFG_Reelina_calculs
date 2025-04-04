@@ -14,3 +14,5 @@
     Head.sh
 7. Fer la simulació:
     prod.sh
+8. Anàlisis de resultats:
+    Analisis_MD.sh
