@@ -1,7 +1,7 @@
 ssh -l marc.tomas@uvic.cat lavandula.uvic.local
 
 #COPYING FILES TO CLUSTER
-scp -r  Tutorial marc.tomas@192.168.133.2:/home/10033944
+scp -r head.sh  marc.tomas@uvic.cat@lavandula.uvic.local:~/Tutorial 
 
 #COPYING FILES FROM CLUSTER
 scp -r nsekhar@192.168.133.2:PATH OF THE CLUSTER/FOLDER .
