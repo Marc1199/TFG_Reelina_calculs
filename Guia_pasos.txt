@@ -1,0 +1,16 @@
+1. Crear seqüència:
+    Generar_seqüencia_fitxers.sh
+2. Generar fitxers parm7 i rst7:
+    Generar_seqüencia_fitxers
+3. Crear fitxers .in per a guardar els parametres desitjats per a les simulacions:
+    01_Min.in
+    02_Head.in
+    03_Prod.in
+4. Pujar fitxers al clauster:
+    Clauster_uvic.sh
+5. Minimitzar seqüència:
+    minim.sh
+6. Calentar seqüència:
+    Head.sh
+7. Fer la simulació:
+    prod.sh
