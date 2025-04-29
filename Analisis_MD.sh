@@ -1,5 +1,4 @@
 #Creació de la carpeta d'analisis i Sel·lecció de la carpeta d'analisi
-mkdir Analysis
 cd Analysis
 
 #processar el fitxer de sortida de la simulació
@@ -21,11 +20,11 @@ xmgrace summary.ETOT summary.EPTOT summary.EKTOT
 gedit rmsd.cpptraj
 
 ##El que hem de ficar dintre l'arxiu es el següent:
-#trajin 02_Heat.nc
-#trajin 03_Prod.nc
-#reference 01_Min.ncrst
-#autoimage
-#rms reference mass out 02_03.rms time 2.0 :2
+trajin 02_Heat.nc
+trajin 03_Prod.nc
+reference 01_Min.ncrst
+autoimage
+rms reference mass out 02_03.rms time 2.0 :2
 
 #Tornal al directori per així poder trobar els scripts nombrats a la seguent línea.
 cd ..
@@ -33,3 +32,5 @@ $AMBERHOME/bin/cpptraj -p parm7 -i rmsd.cpptraj &> cpptraj.log
 
 #Per veure el plot del RMSD
 xmgrace 02_03.rms
+
+Reelina_individual_noH.parm7

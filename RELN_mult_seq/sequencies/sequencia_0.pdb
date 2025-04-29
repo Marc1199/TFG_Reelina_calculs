@@ -1,0 +1,174 @@
+HEADER    SUGAR BINDING PROTEIN                   03-FEB-23   8G21              
+TITLE     REELIN C-TERMINAL REGION                                              
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: REELIN;                                                    
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 FRAGMENT: C-TERMINAL RESIDUES 3429-3460;                             
+COMPND   5 EC: 3.4.21.-;                                                        
+COMPND   6 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
+SOURCE   3 ORGANISM_COMMON: HUMAN;                                              
+SOURCE   4 ORGANISM_TAXID: 9606;                                                
+SOURCE   5 GENE: RELN;                                                          
+SOURCE   6 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE   7 EXPRESSION_SYSTEM_TAXID: 562;                                        
+SOURCE   8 EXPRESSION_SYSTEM_VECTOR: PET28A                                     
+KEYWDS    ALZHEIMERS DISEASE, GAG INTERACTION, SUGAR BINDING PROTEIN            
+EXPDTA    SOLUTION NMR                                                          
+NUMMDL    20                                                                    
+AUTHOR    A.S.CHANDRAHAS,C.MARINO,J.F.ARBOLEDA-VELASQUEZ                        
+REVDAT   3   15-MAY-24 8G21    1       REMARK                                   
+REVDAT   2   07-JUN-23 8G21    1       AUTHOR JRNL                              
+REVDAT   1   31-MAY-23 8G21    0                                                
+JRNL        AUTH   F.LOPERA,C.MARINO,A.S.CHANDRAHAS,M.O'HARE,                   
+JRNL        AUTH 2 N.D.VILLALBA-MORENO,D.AGUILLON,A.BAENA,J.S.SANCHEZ,          
+JRNL        AUTH 3 C.VILA-CASTELAR,L.RAMIREZ GOMEZ,N.CHMIELEWSKA,G.M.OLIVEIRA,  
+JRNL        AUTH 4 J.L.LITTAU,K.HARTMANN,K.PARK,S.KRASEMANN,M.GLATZEL,          
+JRNL        AUTH 5 D.SCHOEMAKER,L.GONZALEZ-BUENDIA,S.DELGADO-TIRADO,            
+JRNL        AUTH 6 S.AREVALO-ALQUICHIRE,K.L.SAEZ-TORRES,D.AMARNANI,L.A.KIM,     
+JRNL        AUTH 7 R.C.MAZZARINO,H.GORDON,Y.BOCANEGRA,A.VILLEGAS,X.GAI,         
+JRNL        AUTH 8 M.BOOTWALLA,J.JI,L.SHEN,K.S.KOSIK,Y.SU,Y.CHEN,A.SCHULTZ,     
+JRNL        AUTH 9 R.A.SPERLING,K.JOHNSON,E.M.REIMAN,D.SEPULVEDA-FALLA,         
+JRNL        AUTH10 J.F.ARBOLEDA-VELASQUEZ,Y.T.QUIROZ                            
+JRNL        TITL   RESILIENCE TO AUTOSOMAL DOMINANT ALZHEIMER'S DISEASE IN A    
+JRNL        TITL 2 REELIN-COLBOS HETEROZYGOUS MAN.                              
+JRNL        REF    NAT MED                       V.  29  1243 2023              
+JRNL        REFN                   ISSN 1546-170X                               
+JRNL        PMID   37188781                                                     
+JRNL        DOI    10.1038/S41591-023-02318-3                                   
+REMARK   2                                                                      
+REMARK   2 RESOLUTION. NOT APPLICABLE.                                          
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : CNS 1.2.1                                            
+REMARK   3   AUTHORS     : BRUNGER A. T. ET.AL.                                 
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: 20 BEST STRUCTURES SUPERIMPOSED ON        
+REMARK   3  BACKBONE ATOMS (N,CA,C,O)                                           
+REMARK   4                                                                      
+REMARK   4 8G21 COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
+REMARK 100                                                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 06-FEB-23.                  
+REMARK 100 THE DEPOSITION ID IS D_1000272047.                                   
+REMARK 210                                                                      
+REMARK 210 EXPERIMENTAL DETAILS                                                 
+REMARK 210  EXPERIMENT TYPE                : NMR                                
+REMARK 210  TEMPERATURE           (KELVIN) : 298.15                             
+REMARK 210  PH                             : 7.4                                
+REMARK 210  IONIC STRENGTH                 : NULL                               
+REMARK 210  PRESSURE                       : NULL                               
+REMARK 210  SAMPLE CONTENTS                : 3.3 MM [U-98% 15N] REELIN CTR,     
+REMARK 210  50 % V/V THF (CF3-CD2-OH), 0.25 MM DSS (4,4-DIMETHYL-4-             
+REMARK 210  SILAPENTANE-1-SULFONIC ACID), 50% H2O/50% D2O                       
+REMARK 210                                                                      
+REMARK 210  NMR EXPERIMENTS CONDUCTED      : 1H TOCSY; 1H NOESY; 2D 1H-15N;     
+REMARK 210                                   2D 1H-13C                          
+REMARK 210  SPECTROMETER FIELD STRENGTH    : 600 MHZ                            
+REMARK 210  SPECTROMETER MODEL             : DIRECT DRIVE                       
+REMARK 210  SPECTROMETER MANUFACTURER      : AGILENT                            
+REMARK 210                                                                      
+REMARK 210  STRUCTURE DETERMINATION.                                            
+REMARK 210   SOFTWARE USED                 : ARIA 2.3.2, PSVS, CCPNMR           
+REMARK 210                                   ANALYSIS 2.4.2, NMRPIPE, PYMOL     
+REMARK 210                                   2.5.4, CNS 1.2.1                   
+REMARK 210   METHOD USED                   : NA                                 
+REMARK 210                                                                      
+REMARK 210 CONFORMERS, NUMBER CALCULATED   : 20                                 
+REMARK 210 CONFORMERS, NUMBER SUBMITTED    : 20                                 
+REMARK 210 CONFORMERS, SELECTION CRITERIA  : STRUCTURES WITH THE LOWEST         
+REMARK 210                                   ENERGY                             
+REMARK 210                                                                      
+REMARK 210 BEST REPRESENTATIVE CONFORMER IN THIS ENSEMBLE : 1                   
+REMARK 210                                                                      
+REMARK 210 REMARK: NULL                                                         
+REMARK 215                                                                      
+REMARK 215 NMR STUDY                                                            
+REMARK 215 THE COORDINATES IN THIS ENTRY WERE GENERATED FROM SOLUTION           
+REMARK 215 NMR DATA.  PROTEIN DATA BANK CONVENTIONS REQUIRE THAT                
+REMARK 215 CRYST1 AND SCALE RECORDS BE INCLUDED, BUT THE VALUES ON              
+REMARK 215 THESE RECORDS ARE MEANINGLESS.                                       
+REMARK 300                                                                      
+REMARK 300 BIOMOLECULE: 1                                                       
+REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
+REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
+REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
+REMARK 300 BURIED SURFACE AREA.                                                 
+REMARK 350                                                                      
+REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
+REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
+REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
+REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
+REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
+REMARK 350                                                                      
+REMARK 350 BIOMOLECULE: 1                                                       
+REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: MONOMERIC                         
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A                                     
+REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: TORSION ANGLES                                             
+REMARK 500                                                                      
+REMARK 500 TORSION ANGLES OUTSIDE THE EXPECTED RAMACHANDRAN REGIONS:            
+REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
+REMARK 500                                                                      
+REMARK 500 STANDARD TABLE:                                                      
+REMARK 500 FORMAT:(10X,I3,1X,A3,1X,A1,I4,A1,4X,F7.2,3X,F7.2)                    
+REMARK 500                                                                      
+REMARK 500 EXPECTED VALUES: GJ KLEYWEGT AND TA JONES (1996). PHI/PSI-           
+REMARK 500 CHOLOGY: RAMACHANDRAN REVISITED. STRUCTURE 4, 1395 - 1400            
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI        PSI       PHI                                   
+REMARK 500  1 ARG A  30      115.37   -162.03                                   
+REMARK 500  2 TYR A  31      134.86     70.57                                   
+REMARK 500  3 TYR A  31      138.43     69.89                                   
+REMARK 500  4 TYR A  31      151.44     73.63                                   
+REMARK 500  8 ARG A  30       39.77    -89.17                                   
+REMARK 500  9 TYR A  31      145.88     74.15                                   
+REMARK 500 12 ARG A  30       53.17    -90.35                                   
+REMARK 500 13 ARG A  30       80.41     54.41                                   
+REMARK 500 15 TYR A  31      132.27     70.53                                   
+REMARK 500 16 ARG A  30       81.23     57.27                                   
+REMARK 500 18 TYR A  31      134.88     77.98                                   
+REMARK 500 19 ARG A  30     -155.64   -117.11                                   
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 900                                                                      
+REMARK 900 RELATED ENTRIES                                                      
+REMARK 900 RELATED ID: 31073   RELATED DB: BMRB                                 
+REMARK 900 REELIN C-TERMINAL REGION                                             
+DBREF  8G21 A    1    32  UNP    P78509   RELN_HUMAN    3429   3460             
+SEQRES   1 A   32  SER THR ARG LYS GLN ASN TYR MET MET ASN PHE SER ARG          
+SEQRES   2 A   32  GLN HIS GLY LEU ARG HIS PHE TYR ASN ARG ARG ARG ARG          
+SEQRES   3 A   32  SER LEU ARG ARG TYR PRO                                      
+HELIX    1 AA1 THR A    2  ARG A   30  1                                  29    
+CISPEP   1 TYR A   31    PRO A   32          1        -1.32                     
+CISPEP   2 TYR A   31    PRO A   32          2        -0.67                     
+CISPEP   3 TYR A   31    PRO A   32          3        -3.11                     
+CISPEP   4 TYR A   31    PRO A   32          4        -2.60                     
+CISPEP   5 TYR A   31    PRO A   32          5        -2.12                     
+CISPEP   6 TYR A   31    PRO A   32          6        -2.30                     
+CISPEP   7 TYR A   31    PRO A   32          7        -2.71                     
+CISPEP   8 TYR A   31    PRO A   32          8       -10.35                     
+CISPEP   9 TYR A   31    PRO A   32          9        -6.09                     
+CISPEP  10 TYR A   31    PRO A   32         10        -1.72                     
+CISPEP  11 TYR A   31    PRO A   32         11        -5.64                     
+CISPEP  12 TYR A   31    PRO A   32         12         0.16                     
+CISPEP  13 TYR A   31    PRO A   32         13        -2.55                     
+CISPEP  14 TYR A   31    PRO A   32         14        -0.06                     
+CISPEP  15 TYR A   31    PRO A   32         15        -1.04                     
+CISPEP  16 TYR A   31    PRO A   32         16        -2.79                     
+CISPEP  17 TYR A   31    PRO A   32         17        -0.73                     
+CISPEP  18 TYR A   31    PRO A   32         18        -0.07                     
+CISPEP  19 TYR A   31    PRO A   32         19        -4.74                     
+CISPEP  20 TYR A   31    PRO A   32         20        -1.58                     
+CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      1.000000  0.000000  0.000000        0.00000                         
+SCALE2      0.000000  1.000000  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  1.000000        0.00000                         

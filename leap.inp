@@ -1,0 +1,12 @@
+source leaprc.protein.ff14SB
+source leaprc.water.tip3p
+source leaprc.gaff
+set default PBRadii mbondi3
+x = loadPDB Reelina_individual_noH.pdb
+savepdb x Reelina_individual_H.pdb
+solvateBox x TIP3PBOX 10.0
+addions x Na+ 0
+addions x Cl- 0
+savepdb x Reelina_individual_wat.pdb
+saveAmberParm x Reelina_individual_noH.parm7 Reelina_individual_noH.rst7
+quit

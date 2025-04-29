@@ -4,9 +4,10 @@ ssh -l marc.tomas@uvic.cat lavandula.uvic.local
 scp -r head.sh  marc.tomas@uvic.cat@lavandula.uvic.local:~/Tutorial 
 
 #COPYING FILES FROM CLUSTER
-scp -r nsekhar@192.168.133.2:PATH OF THE CLUSTER/FOLDER .
-sbatch
+scp -r marc.tomas@uvic.cat@lavandula.uvic.local:PATH OF THE CLUSTER/FOLDER .
+sbatc
 
+scp marc.tomas@uvic.cat@lavandula.uvic.local:/home/10033944/Tutorial/analisis/Codi/MD_RMSD_RMSF_RG.png .
 
 #!/bin/bash
 #SBATCH --job-name=Tutorial_amber       # Nom del job
