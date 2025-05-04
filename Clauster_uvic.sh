@@ -9,6 +9,10 @@ sbatc
 
 scp marc.tomas@uvic.cat@lavandula.uvic.local:/home/10033944/Tutorial/analisis/Codi/MD_RMSD_RMSF_RG.png .
 
+#veure llista d'espera: 
+squeue -u $USER
+scontrol show job
+
 
 cp -r /ruta/del/origen/directorio /ruta/del/destino/
 
