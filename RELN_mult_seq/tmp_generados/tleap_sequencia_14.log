@@ -1,0 +1,134 @@
+-I: Adding /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/prep to search path.
+-I: Adding /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/lib to search path.
+-I: Adding /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm to search path.
+-I: Adding /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source tmp_generados/leap_sequencia_14.inp.
+
+Welcome to LEaP!
+Sourcing: ./tmp_generados/leap_sequencia_14.inp
+----- Source: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/lib/amino12.lib
+Loading library: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/lib/aminoct12.lib
+Loading library: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/lib/aminont12.lib
+----- Source: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/lib/atomic_ions.lib
+Loading library: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/lib/solvents.lib
+Loading parameters: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+----- Source: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd/leaprc.gaff
+----- Source of /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd/leaprc.gaff done
+Log file: ./leap.log
+Loading parameters: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm/gaff.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 1.81, May 2017)
+Using ArgH and AspGluO modified Bondi2 radii
+Loading PDB file: ./tmp_generados/sequencia_14_noH.pdb
+  total atoms in file: 297
+  Leap added 297 missing atoms according to residue templates:
+       297 H / lone pairs
+Writing pdb file: tmp_generados/sequencia_14_H.pdb
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NSER -> SER
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CPRO -> PRO
+  Solute vdw bounding box:              54.401 22.422 23.361
+  Total bounding box for atom centers:  74.401 42.422 43.361
+  Solvent unit box:                     18.774 18.774 18.774
+  Total vdw box size:                   77.355 45.504 46.590 angstroms.
+  Volume: 163994.670 A^3 
+  Total mass 73567.580 amu,  Density 0.745 g/cc
+  Added 3849 residues.
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+addIons: 1st Ion & target unit have charges of the same sign:
+     unit charge = 10; ion1 charge = 1;
+     can't neutralize.
+10 Cl- ions required to neutralize.
+Adding 10 counter ions to "x" using 1A grid
+Grid extends from solute vdw + 5.59  to  11.59
+Resolution:      1.00 Angstrom.
+Solvent present: replacing closest with ion
+	 when steric overlaps occur
+Calculating grid charges
+(Replacing solvent molecule)
+Placed Cl- in x at (1.94, 10.28, 3.84).
+(Replacing solvent molecule)
+Placed Cl- in x at (13.21, 10.79, -6.54).
+(Replacing solvent molecule)
+Placed Cl- in x at (-30.75, 3.83, 0.72).
+(Replacing solvent molecule)
+Placed Cl- in x at (9.45, -7.31, -11.41).
+(Replacing solvent molecule)
+Placed Cl- in x at (-22.33, 3.52, -10.75).
+(Replacing solvent molecule)
+Placed Cl- in x at (1.92, -14.87, -1.72).
+(Replacing solvent molecule)
+Placed Cl- in x at (-25.81, -6.70, -2.40).
+(Replacing solvent molecule)
+Placed Cl- in x at (-2.31, 7.11, -6.95).
+(Replacing solvent molecule)
+Placed Cl- in x at (19.50, 3.25, -14.37).
+(Replacing solvent molecule)
+Placed Cl- in x at (-23.97, 7.73, 7.55).
+
+Done adding ions.
+Writing pdb file: seq_wat/sequencia_14_wat.pdb
+   printing CRYST1 record to PDB file with box info
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NSER -> SER
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CPRO -> PRO
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 147 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	CPRO	1
+	NSER	1
+	WAT	3839
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 5; Notes = 0.
