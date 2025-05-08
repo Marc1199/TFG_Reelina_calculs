@@ -1,0 +1,37 @@
+-I: Adding /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/prep to search path.
+-I: Adding /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/lib to search path.
+-I: Adding /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm to search path.
+-I: Adding /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source tmp_generados/leap_sequencia_0_TFE25.inp.
+
+Welcome to LEaP!
+Sourcing: ./tmp_generados/leap_sequencia_0_TFE25.inp
+----- Source: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/lib/amino12.lib
+Loading library: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/lib/aminoct12.lib
+Loading library: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/lib/aminont12.lib
+----- Source: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd/leaprc.water.opc
+----- Source of /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd/leaprc.water.opc done
+Loading library: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/lib/atomic_ions.lib
+Loading library: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/lib/solvents.lib
+Loading parameters: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm/frcmod.opc
+Reading force field modification type file (frcmod)
+Reading title:
+Parameters for OPC water (JPCL, 2014, 5 (21), pp 3863-3871)
+Loading parameters: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm/frcmod.ionslm_126_opc
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of atomic ions for the OPC water model (12-6 set)
+----- Source: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd/leaprc.gaff
+----- Source of /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd/leaprc.gaff done
+Log file: ./leap.log
