@@ -1,0 +1,2916 @@
+-I: Adding /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/prep to search path.
+-I: Adding /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/lib to search path.
+-I: Adding /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm to search path.
+-I: Adding /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd to search path.
+-s: Ignoring all leaprc startup files.
+-f: Source tmp_generados/leap_sequencia_0_TFE_100_agua.inp.
+
+Welcome to LEaP!
+Sourcing: ./tmp_generados/leap_sequencia_0_TFE_100_agua.inp
+----- Source: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/lib/amino12.lib
+Loading library: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/lib/aminoct12.lib
+Loading library: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/lib/aminont12.lib
+----- Source: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/lib/atomic_ions.lib
+Loading library: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/lib/solvents.lib
+Loading parameters: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+----- Source: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd/leaprc.gaff
+----- Source of /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd/leaprc.gaff done
+Log file: ./leap.log
+Loading parameters: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm/gaff.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 1.81, May 2017)
+Loading parameters: ./TFE.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading Mol2 file: ./TFE.mol2
+Reading MOLECULE named MOL
+Using ArgH and AspGluO modified Bondi2 radii
+Loading PDB file: ./tmp_generados/sequencia_0_TFE_100_noH.pdb
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 32   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 33   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 34   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 35   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 36   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 37   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 38   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 39   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 40   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 41   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 42   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 43   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 44   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 45   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 46   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 47   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 48   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 49   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 50   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 51   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 52   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 53   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 54   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 55   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 56   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 57   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 58   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 59   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 60   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 61   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 62   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 63   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 64   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 65   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 66   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 67   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 68   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 69   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 70   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 71   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 72   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 73   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 74   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 75   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 76   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 77   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 78   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 79   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 80   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 81   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 82   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 83   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 84   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 85   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 86   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 87   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 88   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 89   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 90   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 91   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 92   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 93   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 94   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 95   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 96   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 97   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 98   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 99   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 100   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 101   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 102   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 103   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 104   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 105   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 106   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 107   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 108   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 109   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 110   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 111   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 112   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 113   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 114   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 115   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 116   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 117   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 118   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 119   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 120   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 121   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 122   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 123   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 124   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 125   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 126   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 127   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 128   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 129   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 130   type: Nonterminal
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+Unknown residue: MOL   number: 131   type: Terminal/last
+..relaxing end constraints to try for a dbase match
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+  -no luck
+Created a new atom named: OXT within residue: .R<PRO 32>
+Creating new UNIT for residue: MOL sequence: 33
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
+One sided connection. Residue () missing connect0 atom.
+Created a new atom named: F1 within residue: .R<MOL 33>
+Created a new atom named: F2 within residue: .R<MOL 33>
+Created a new atom named: F3 within residue: .R<MOL 33>
+Created a new atom named: O1 within residue: .R<MOL 33>
+Created a new atom named: C1 within residue: .R<MOL 33>
+Created a new atom named: C2 within residue: .R<MOL 33>
+Creating new UNIT for residue: MOL sequence: 34
+Created a new atom named: F1 within residue: .R<MOL 34>
+Created a new atom named: F2 within residue: .R<MOL 34>
+Created a new atom named: F3 within residue: .R<MOL 34>
+Created a new atom named: O1 within residue: .R<MOL 34>
+Created a new atom named: C1 within residue: .R<MOL 34>
+Created a new atom named: C2 within residue: .R<MOL 34>
+Creating new UNIT for residue: MOL sequence: 35
+Created a new atom named: F1 within residue: .R<MOL 35>
+Created a new atom named: F2 within residue: .R<MOL 35>
+Created a new atom named: F3 within residue: .R<MOL 35>
+Created a new atom named: O1 within residue: .R<MOL 35>
+Created a new atom named: C1 within residue: .R<MOL 35>
+Created a new atom named: C2 within residue: .R<MOL 35>
+Creating new UNIT for residue: MOL sequence: 36
+Created a new atom named: F1 within residue: .R<MOL 36>
+Created a new atom named: F2 within residue: .R<MOL 36>
+Created a new atom named: F3 within residue: .R<MOL 36>
+Created a new atom named: O1 within residue: .R<MOL 36>
+Created a new atom named: C1 within residue: .R<MOL 36>
+Created a new atom named: C2 within residue: .R<MOL 36>
+Creating new UNIT for residue: MOL sequence: 37
+Created a new atom named: F1 within residue: .R<MOL 37>
+Created a new atom named: F2 within residue: .R<MOL 37>
+Created a new atom named: F3 within residue: .R<MOL 37>
+Created a new atom named: O1 within residue: .R<MOL 37>
+Created a new atom named: C1 within residue: .R<MOL 37>
+Created a new atom named: C2 within residue: .R<MOL 37>
+Creating new UNIT for residue: MOL sequence: 38
+Created a new atom named: F1 within residue: .R<MOL 38>
+Created a new atom named: F2 within residue: .R<MOL 38>
+Created a new atom named: F3 within residue: .R<MOL 38>
+Created a new atom named: O1 within residue: .R<MOL 38>
+Created a new atom named: C1 within residue: .R<MOL 38>
+Created a new atom named: C2 within residue: .R<MOL 38>
+Creating new UNIT for residue: MOL sequence: 39
+Created a new atom named: F1 within residue: .R<MOL 39>
+Created a new atom named: F2 within residue: .R<MOL 39>
+Created a new atom named: F3 within residue: .R<MOL 39>
+Created a new atom named: O1 within residue: .R<MOL 39>
+Created a new atom named: C1 within residue: .R<MOL 39>
+Created a new atom named: C2 within residue: .R<MOL 39>
+Creating new UNIT for residue: MOL sequence: 40
+Created a new atom named: F1 within residue: .R<MOL 40>
+Created a new atom named: F2 within residue: .R<MOL 40>
+Created a new atom named: F3 within residue: .R<MOL 40>
+Created a new atom named: O1 within residue: .R<MOL 40>
+Created a new atom named: C1 within residue: .R<MOL 40>
+Created a new atom named: C2 within residue: .R<MOL 40>
+Creating new UNIT for residue: MOL sequence: 41
+Created a new atom named: F1 within residue: .R<MOL 41>
+Created a new atom named: F2 within residue: .R<MOL 41>
+Created a new atom named: F3 within residue: .R<MOL 41>
+Created a new atom named: O1 within residue: .R<MOL 41>
+Created a new atom named: C1 within residue: .R<MOL 41>
+Created a new atom named: C2 within residue: .R<MOL 41>
+Creating new UNIT for residue: MOL sequence: 42
+Created a new atom named: F1 within residue: .R<MOL 42>
+Created a new atom named: F2 within residue: .R<MOL 42>
+Created a new atom named: F3 within residue: .R<MOL 42>
+Created a new atom named: O1 within residue: .R<MOL 42>
+Created a new atom named: C1 within residue: .R<MOL 42>
+Created a new atom named: C2 within residue: .R<MOL 42>
+Creating new UNIT for residue: MOL sequence: 43
+Created a new atom named: F1 within residue: .R<MOL 43>
+Created a new atom named: F2 within residue: .R<MOL 43>
+Created a new atom named: F3 within residue: .R<MOL 43>
+Created a new atom named: O1 within residue: .R<MOL 43>
+Created a new atom named: C1 within residue: .R<MOL 43>
+Created a new atom named: C2 within residue: .R<MOL 43>
+Creating new UNIT for residue: MOL sequence: 44
+Created a new atom named: F1 within residue: .R<MOL 44>
+Created a new atom named: F2 within residue: .R<MOL 44>
+Created a new atom named: F3 within residue: .R<MOL 44>
+Created a new atom named: O1 within residue: .R<MOL 44>
+Created a new atom named: C1 within residue: .R<MOL 44>
+Created a new atom named: C2 within residue: .R<MOL 44>
+Creating new UNIT for residue: MOL sequence: 45
+Created a new atom named: F1 within residue: .R<MOL 45>
+Created a new atom named: F2 within residue: .R<MOL 45>
+Created a new atom named: F3 within residue: .R<MOL 45>
+Created a new atom named: O1 within residue: .R<MOL 45>
+Created a new atom named: C1 within residue: .R<MOL 45>
+Created a new atom named: C2 within residue: .R<MOL 45>
+Creating new UNIT for residue: MOL sequence: 46
+Created a new atom named: F1 within residue: .R<MOL 46>
+Created a new atom named: F2 within residue: .R<MOL 46>
+Created a new atom named: F3 within residue: .R<MOL 46>
+Created a new atom named: O1 within residue: .R<MOL 46>
+Created a new atom named: C1 within residue: .R<MOL 46>
+Created a new atom named: C2 within residue: .R<MOL 46>
+Creating new UNIT for residue: MOL sequence: 47
+Created a new atom named: F1 within residue: .R<MOL 47>
+Created a new atom named: F2 within residue: .R<MOL 47>
+Created a new atom named: F3 within residue: .R<MOL 47>
+Created a new atom named: O1 within residue: .R<MOL 47>
+Created a new atom named: C1 within residue: .R<MOL 47>
+Created a new atom named: C2 within residue: .R<MOL 47>
+Creating new UNIT for residue: MOL sequence: 48
+Created a new atom named: F1 within residue: .R<MOL 48>
+Created a new atom named: F2 within residue: .R<MOL 48>
+Created a new atom named: F3 within residue: .R<MOL 48>
+Created a new atom named: O1 within residue: .R<MOL 48>
+Created a new atom named: C1 within residue: .R<MOL 48>
+Created a new atom named: C2 within residue: .R<MOL 48>
+Creating new UNIT for residue: MOL sequence: 49
+Created a new atom named: F1 within residue: .R<MOL 49>
+Created a new atom named: F2 within residue: .R<MOL 49>
+Created a new atom named: F3 within residue: .R<MOL 49>
+Created a new atom named: O1 within residue: .R<MOL 49>
+Created a new atom named: C1 within residue: .R<MOL 49>
+Created a new atom named: C2 within residue: .R<MOL 49>
+Creating new UNIT for residue: MOL sequence: 50
+Created a new atom named: F1 within residue: .R<MOL 50>
+Created a new atom named: F2 within residue: .R<MOL 50>
+Created a new atom named: F3 within residue: .R<MOL 50>
+Created a new atom named: O1 within residue: .R<MOL 50>
+Created a new atom named: C1 within residue: .R<MOL 50>
+Created a new atom named: C2 within residue: .R<MOL 50>
+Creating new UNIT for residue: MOL sequence: 51
+Created a new atom named: F1 within residue: .R<MOL 51>
+Created a new atom named: F2 within residue: .R<MOL 51>
+Created a new atom named: F3 within residue: .R<MOL 51>
+Created a new atom named: O1 within residue: .R<MOL 51>
+Created a new atom named: C1 within residue: .R<MOL 51>
+Created a new atom named: C2 within residue: .R<MOL 51>
+Creating new UNIT for residue: MOL sequence: 52
+Created a new atom named: F1 within residue: .R<MOL 52>
+Created a new atom named: F2 within residue: .R<MOL 52>
+Created a new atom named: F3 within residue: .R<MOL 52>
+Created a new atom named: O1 within residue: .R<MOL 52>
+Created a new atom named: C1 within residue: .R<MOL 52>
+Created a new atom named: C2 within residue: .R<MOL 52>
+Creating new UNIT for residue: MOL sequence: 53
+Created a new atom named: F1 within residue: .R<MOL 53>
+Created a new atom named: F2 within residue: .R<MOL 53>
+Created a new atom named: F3 within residue: .R<MOL 53>
+Created a new atom named: O1 within residue: .R<MOL 53>
+Created a new atom named: C1 within residue: .R<MOL 53>
+Created a new atom named: C2 within residue: .R<MOL 53>
+Creating new UNIT for residue: MOL sequence: 54
+Created a new atom named: F1 within residue: .R<MOL 54>
+Created a new atom named: F2 within residue: .R<MOL 54>
+Created a new atom named: F3 within residue: .R<MOL 54>
+Created a new atom named: O1 within residue: .R<MOL 54>
+Created a new atom named: C1 within residue: .R<MOL 54>
+Created a new atom named: C2 within residue: .R<MOL 54>
+Creating new UNIT for residue: MOL sequence: 55
+Created a new atom named: F1 within residue: .R<MOL 55>
+Created a new atom named: F2 within residue: .R<MOL 55>
+Created a new atom named: F3 within residue: .R<MOL 55>
+Created a new atom named: O1 within residue: .R<MOL 55>
+Created a new atom named: C1 within residue: .R<MOL 55>
+Created a new atom named: C2 within residue: .R<MOL 55>
+Creating new UNIT for residue: MOL sequence: 56
+Created a new atom named: F1 within residue: .R<MOL 56>
+Created a new atom named: F2 within residue: .R<MOL 56>
+Created a new atom named: F3 within residue: .R<MOL 56>
+Created a new atom named: O1 within residue: .R<MOL 56>
+Created a new atom named: C1 within residue: .R<MOL 56>
+Created a new atom named: C2 within residue: .R<MOL 56>
+Creating new UNIT for residue: MOL sequence: 57
+Created a new atom named: F1 within residue: .R<MOL 57>
+Created a new atom named: F2 within residue: .R<MOL 57>
+Created a new atom named: F3 within residue: .R<MOL 57>
+Created a new atom named: O1 within residue: .R<MOL 57>
+Created a new atom named: C1 within residue: .R<MOL 57>
+Created a new atom named: C2 within residue: .R<MOL 57>
+Creating new UNIT for residue: MOL sequence: 58
+Created a new atom named: F1 within residue: .R<MOL 58>
+Created a new atom named: F2 within residue: .R<MOL 58>
+Created a new atom named: F3 within residue: .R<MOL 58>
+Created a new atom named: O1 within residue: .R<MOL 58>
+Created a new atom named: C1 within residue: .R<MOL 58>
+Created a new atom named: C2 within residue: .R<MOL 58>
+Creating new UNIT for residue: MOL sequence: 59
+Created a new atom named: F1 within residue: .R<MOL 59>
+Created a new atom named: F2 within residue: .R<MOL 59>
+Created a new atom named: F3 within residue: .R<MOL 59>
+Created a new atom named: O1 within residue: .R<MOL 59>
+Created a new atom named: C1 within residue: .R<MOL 59>
+Created a new atom named: C2 within residue: .R<MOL 59>
+Creating new UNIT for residue: MOL sequence: 60
+Created a new atom named: F1 within residue: .R<MOL 60>
+Created a new atom named: F2 within residue: .R<MOL 60>
+Created a new atom named: F3 within residue: .R<MOL 60>
+Created a new atom named: O1 within residue: .R<MOL 60>
+Created a new atom named: C1 within residue: .R<MOL 60>
+Created a new atom named: C2 within residue: .R<MOL 60>
+Creating new UNIT for residue: MOL sequence: 61
+Created a new atom named: F1 within residue: .R<MOL 61>
+Created a new atom named: F2 within residue: .R<MOL 61>
+Created a new atom named: F3 within residue: .R<MOL 61>
+Created a new atom named: O1 within residue: .R<MOL 61>
+Created a new atom named: C1 within residue: .R<MOL 61>
+Created a new atom named: C2 within residue: .R<MOL 61>
+Creating new UNIT for residue: MOL sequence: 62
+Created a new atom named: F1 within residue: .R<MOL 62>
+Created a new atom named: F2 within residue: .R<MOL 62>
+Created a new atom named: F3 within residue: .R<MOL 62>
+Created a new atom named: O1 within residue: .R<MOL 62>
+Created a new atom named: C1 within residue: .R<MOL 62>
+Created a new atom named: C2 within residue: .R<MOL 62>
+Creating new UNIT for residue: MOL sequence: 63
+Created a new atom named: F1 within residue: .R<MOL 63>
+Created a new atom named: F2 within residue: .R<MOL 63>
+Created a new atom named: F3 within residue: .R<MOL 63>
+Created a new atom named: O1 within residue: .R<MOL 63>
+Created a new atom named: C1 within residue: .R<MOL 63>
+Created a new atom named: C2 within residue: .R<MOL 63>
+Creating new UNIT for residue: MOL sequence: 64
+Created a new atom named: F1 within residue: .R<MOL 64>
+Created a new atom named: F2 within residue: .R<MOL 64>
+Created a new atom named: F3 within residue: .R<MOL 64>
+Created a new atom named: O1 within residue: .R<MOL 64>
+Created a new atom named: C1 within residue: .R<MOL 64>
+Created a new atom named: C2 within residue: .R<MOL 64>
+Creating new UNIT for residue: MOL sequence: 65
+Created a new atom named: F1 within residue: .R<MOL 65>
+Created a new atom named: F2 within residue: .R<MOL 65>
+Created a new atom named: F3 within residue: .R<MOL 65>
+Created a new atom named: O1 within residue: .R<MOL 65>
+Created a new atom named: C1 within residue: .R<MOL 65>
+Created a new atom named: C2 within residue: .R<MOL 65>
+Creating new UNIT for residue: MOL sequence: 66
+Created a new atom named: F1 within residue: .R<MOL 66>
+Created a new atom named: F2 within residue: .R<MOL 66>
+Created a new atom named: F3 within residue: .R<MOL 66>
+Created a new atom named: O1 within residue: .R<MOL 66>
+Created a new atom named: C1 within residue: .R<MOL 66>
+Created a new atom named: C2 within residue: .R<MOL 66>
+Creating new UNIT for residue: MOL sequence: 67
+Created a new atom named: F1 within residue: .R<MOL 67>
+Created a new atom named: F2 within residue: .R<MOL 67>
+Created a new atom named: F3 within residue: .R<MOL 67>
+Created a new atom named: O1 within residue: .R<MOL 67>
+Created a new atom named: C1 within residue: .R<MOL 67>
+Created a new atom named: C2 within residue: .R<MOL 67>
+Creating new UNIT for residue: MOL sequence: 68
+Created a new atom named: F1 within residue: .R<MOL 68>
+Created a new atom named: F2 within residue: .R<MOL 68>
+Created a new atom named: F3 within residue: .R<MOL 68>
+Created a new atom named: O1 within residue: .R<MOL 68>
+Created a new atom named: C1 within residue: .R<MOL 68>
+Created a new atom named: C2 within residue: .R<MOL 68>
+Creating new UNIT for residue: MOL sequence: 69
+Created a new atom named: F1 within residue: .R<MOL 69>
+Created a new atom named: F2 within residue: .R<MOL 69>
+Created a new atom named: F3 within residue: .R<MOL 69>
+Created a new atom named: O1 within residue: .R<MOL 69>
+Created a new atom named: C1 within residue: .R<MOL 69>
+Created a new atom named: C2 within residue: .R<MOL 69>
+Creating new UNIT for residue: MOL sequence: 70
+Created a new atom named: F1 within residue: .R<MOL 70>
+Created a new atom named: F2 within residue: .R<MOL 70>
+Created a new atom named: F3 within residue: .R<MOL 70>
+Created a new atom named: O1 within residue: .R<MOL 70>
+Created a new atom named: C1 within residue: .R<MOL 70>
+Created a new atom named: C2 within residue: .R<MOL 70>
+Creating new UNIT for residue: MOL sequence: 71
+Created a new atom named: F1 within residue: .R<MOL 71>
+Created a new atom named: F2 within residue: .R<MOL 71>
+Created a new atom named: F3 within residue: .R<MOL 71>
+Created a new atom named: O1 within residue: .R<MOL 71>
+Created a new atom named: C1 within residue: .R<MOL 71>
+Created a new atom named: C2 within residue: .R<MOL 71>
+Creating new UNIT for residue: MOL sequence: 72
+Created a new atom named: F1 within residue: .R<MOL 72>
+Created a new atom named: F2 within residue: .R<MOL 72>
+Created a new atom named: F3 within residue: .R<MOL 72>
+Created a new atom named: O1 within residue: .R<MOL 72>
+Created a new atom named: C1 within residue: .R<MOL 72>
+Created a new atom named: C2 within residue: .R<MOL 72>
+Creating new UNIT for residue: MOL sequence: 73
+Created a new atom named: F1 within residue: .R<MOL 73>
+Created a new atom named: F2 within residue: .R<MOL 73>
+Created a new atom named: F3 within residue: .R<MOL 73>
+Created a new atom named: O1 within residue: .R<MOL 73>
+Created a new atom named: C1 within residue: .R<MOL 73>
+Created a new atom named: C2 within residue: .R<MOL 73>
+Creating new UNIT for residue: MOL sequence: 74
+Created a new atom named: F1 within residue: .R<MOL 74>
+Created a new atom named: F2 within residue: .R<MOL 74>
+Created a new atom named: F3 within residue: .R<MOL 74>
+Created a new atom named: O1 within residue: .R<MOL 74>
+Created a new atom named: C1 within residue: .R<MOL 74>
+Created a new atom named: C2 within residue: .R<MOL 74>
+Creating new UNIT for residue: MOL sequence: 75
+Created a new atom named: F1 within residue: .R<MOL 75>
+Created a new atom named: F2 within residue: .R<MOL 75>
+Created a new atom named: F3 within residue: .R<MOL 75>
+Created a new atom named: O1 within residue: .R<MOL 75>
+Created a new atom named: C1 within residue: .R<MOL 75>
+Created a new atom named: C2 within residue: .R<MOL 75>
+Creating new UNIT for residue: MOL sequence: 76
+Created a new atom named: F1 within residue: .R<MOL 76>
+Created a new atom named: F2 within residue: .R<MOL 76>
+Created a new atom named: F3 within residue: .R<MOL 76>
+Created a new atom named: O1 within residue: .R<MOL 76>
+Created a new atom named: C1 within residue: .R<MOL 76>
+Created a new atom named: C2 within residue: .R<MOL 76>
+Creating new UNIT for residue: MOL sequence: 77
+Created a new atom named: F1 within residue: .R<MOL 77>
+Created a new atom named: F2 within residue: .R<MOL 77>
+Created a new atom named: F3 within residue: .R<MOL 77>
+Created a new atom named: O1 within residue: .R<MOL 77>
+Created a new atom named: C1 within residue: .R<MOL 77>
+Created a new atom named: C2 within residue: .R<MOL 77>
+Creating new UNIT for residue: MOL sequence: 78
+Created a new atom named: F1 within residue: .R<MOL 78>
+Created a new atom named: F2 within residue: .R<MOL 78>
+Created a new atom named: F3 within residue: .R<MOL 78>
+Created a new atom named: O1 within residue: .R<MOL 78>
+Created a new atom named: C1 within residue: .R<MOL 78>
+Created a new atom named: C2 within residue: .R<MOL 78>
+Creating new UNIT for residue: MOL sequence: 79
+Created a new atom named: F1 within residue: .R<MOL 79>
+Created a new atom named: F2 within residue: .R<MOL 79>
+Created a new atom named: F3 within residue: .R<MOL 79>
+Created a new atom named: O1 within residue: .R<MOL 79>
+Created a new atom named: C1 within residue: .R<MOL 79>
+Created a new atom named: C2 within residue: .R<MOL 79>
+Creating new UNIT for residue: MOL sequence: 80
+Created a new atom named: F1 within residue: .R<MOL 80>
+Created a new atom named: F2 within residue: .R<MOL 80>
+Created a new atom named: F3 within residue: .R<MOL 80>
+Created a new atom named: O1 within residue: .R<MOL 80>
+Created a new atom named: C1 within residue: .R<MOL 80>
+Created a new atom named: C2 within residue: .R<MOL 80>
+Creating new UNIT for residue: MOL sequence: 81
+Created a new atom named: F1 within residue: .R<MOL 81>
+Created a new atom named: F2 within residue: .R<MOL 81>
+Created a new atom named: F3 within residue: .R<MOL 81>
+Created a new atom named: O1 within residue: .R<MOL 81>
+Created a new atom named: C1 within residue: .R<MOL 81>
+Created a new atom named: C2 within residue: .R<MOL 81>
+Creating new UNIT for residue: MOL sequence: 82
+Created a new atom named: F1 within residue: .R<MOL 82>
+Created a new atom named: F2 within residue: .R<MOL 82>
+Created a new atom named: F3 within residue: .R<MOL 82>
+Created a new atom named: O1 within residue: .R<MOL 82>
+Created a new atom named: C1 within residue: .R<MOL 82>
+Created a new atom named: C2 within residue: .R<MOL 82>
+Creating new UNIT for residue: MOL sequence: 83
+Created a new atom named: F1 within residue: .R<MOL 83>
+Created a new atom named: F2 within residue: .R<MOL 83>
+Created a new atom named: F3 within residue: .R<MOL 83>
+Created a new atom named: O1 within residue: .R<MOL 83>
+Created a new atom named: C1 within residue: .R<MOL 83>
+Created a new atom named: C2 within residue: .R<MOL 83>
+Creating new UNIT for residue: MOL sequence: 84
+Created a new atom named: F1 within residue: .R<MOL 84>
+Created a new atom named: F2 within residue: .R<MOL 84>
+Created a new atom named: F3 within residue: .R<MOL 84>
+Created a new atom named: O1 within residue: .R<MOL 84>
+Created a new atom named: C1 within residue: .R<MOL 84>
+Created a new atom named: C2 within residue: .R<MOL 84>
+Creating new UNIT for residue: MOL sequence: 85
+Created a new atom named: F1 within residue: .R<MOL 85>
+Created a new atom named: F2 within residue: .R<MOL 85>
+Created a new atom named: F3 within residue: .R<MOL 85>
+Created a new atom named: O1 within residue: .R<MOL 85>
+Created a new atom named: C1 within residue: .R<MOL 85>
+Created a new atom named: C2 within residue: .R<MOL 85>
+Creating new UNIT for residue: MOL sequence: 86
+Created a new atom named: F1 within residue: .R<MOL 86>
+Created a new atom named: F2 within residue: .R<MOL 86>
+Created a new atom named: F3 within residue: .R<MOL 86>
+Created a new atom named: O1 within residue: .R<MOL 86>
+Created a new atom named: C1 within residue: .R<MOL 86>
+Created a new atom named: C2 within residue: .R<MOL 86>
+Creating new UNIT for residue: MOL sequence: 87
+Created a new atom named: F1 within residue: .R<MOL 87>
+Created a new atom named: F2 within residue: .R<MOL 87>
+Created a new atom named: F3 within residue: .R<MOL 87>
+Created a new atom named: O1 within residue: .R<MOL 87>
+Created a new atom named: C1 within residue: .R<MOL 87>
+Created a new atom named: C2 within residue: .R<MOL 87>
+Creating new UNIT for residue: MOL sequence: 88
+Created a new atom named: F1 within residue: .R<MOL 88>
+Created a new atom named: F2 within residue: .R<MOL 88>
+Created a new atom named: F3 within residue: .R<MOL 88>
+Created a new atom named: O1 within residue: .R<MOL 88>
+Created a new atom named: C1 within residue: .R<MOL 88>
+Created a new atom named: C2 within residue: .R<MOL 88>
+Creating new UNIT for residue: MOL sequence: 89
+Created a new atom named: F1 within residue: .R<MOL 89>
+Created a new atom named: F2 within residue: .R<MOL 89>
+Created a new atom named: F3 within residue: .R<MOL 89>
+Created a new atom named: O1 within residue: .R<MOL 89>
+Created a new atom named: C1 within residue: .R<MOL 89>
+Created a new atom named: C2 within residue: .R<MOL 89>
+Creating new UNIT for residue: MOL sequence: 90
+Created a new atom named: F1 within residue: .R<MOL 90>
+Created a new atom named: F2 within residue: .R<MOL 90>
+Created a new atom named: F3 within residue: .R<MOL 90>
+Created a new atom named: O1 within residue: .R<MOL 90>
+Created a new atom named: C1 within residue: .R<MOL 90>
+Created a new atom named: C2 within residue: .R<MOL 90>
+Creating new UNIT for residue: MOL sequence: 91
+Created a new atom named: F1 within residue: .R<MOL 91>
+Created a new atom named: F2 within residue: .R<MOL 91>
+Created a new atom named: F3 within residue: .R<MOL 91>
+Created a new atom named: O1 within residue: .R<MOL 91>
+Created a new atom named: C1 within residue: .R<MOL 91>
+Created a new atom named: C2 within residue: .R<MOL 91>
+Creating new UNIT for residue: MOL sequence: 92
+Created a new atom named: F1 within residue: .R<MOL 92>
+Created a new atom named: F2 within residue: .R<MOL 92>
+Created a new atom named: F3 within residue: .R<MOL 92>
+Created a new atom named: O1 within residue: .R<MOL 92>
+Created a new atom named: C1 within residue: .R<MOL 92>
+Created a new atom named: C2 within residue: .R<MOL 92>
+Creating new UNIT for residue: MOL sequence: 93
+Created a new atom named: F1 within residue: .R<MOL 93>
+Created a new atom named: F2 within residue: .R<MOL 93>
+Created a new atom named: F3 within residue: .R<MOL 93>
+Created a new atom named: O1 within residue: .R<MOL 93>
+Created a new atom named: C1 within residue: .R<MOL 93>
+Created a new atom named: C2 within residue: .R<MOL 93>
+Creating new UNIT for residue: MOL sequence: 94
+Created a new atom named: F1 within residue: .R<MOL 94>
+Created a new atom named: F2 within residue: .R<MOL 94>
+Created a new atom named: F3 within residue: .R<MOL 94>
+Created a new atom named: O1 within residue: .R<MOL 94>
+Created a new atom named: C1 within residue: .R<MOL 94>
+Created a new atom named: C2 within residue: .R<MOL 94>
+Creating new UNIT for residue: MOL sequence: 95
+Created a new atom named: F1 within residue: .R<MOL 95>
+Created a new atom named: F2 within residue: .R<MOL 95>
+Created a new atom named: F3 within residue: .R<MOL 95>
+Created a new atom named: O1 within residue: .R<MOL 95>
+Created a new atom named: C1 within residue: .R<MOL 95>
+Created a new atom named: C2 within residue: .R<MOL 95>
+Creating new UNIT for residue: MOL sequence: 96
+Created a new atom named: F1 within residue: .R<MOL 96>
+Created a new atom named: F2 within residue: .R<MOL 96>
+Created a new atom named: F3 within residue: .R<MOL 96>
+Created a new atom named: O1 within residue: .R<MOL 96>
+Created a new atom named: C1 within residue: .R<MOL 96>
+Created a new atom named: C2 within residue: .R<MOL 96>
+Creating new UNIT for residue: MOL sequence: 97
+Created a new atom named: F1 within residue: .R<MOL 97>
+Created a new atom named: F2 within residue: .R<MOL 97>
+Created a new atom named: F3 within residue: .R<MOL 97>
+Created a new atom named: O1 within residue: .R<MOL 97>
+Created a new atom named: C1 within residue: .R<MOL 97>
+Created a new atom named: C2 within residue: .R<MOL 97>
+Creating new UNIT for residue: MOL sequence: 98
+Created a new atom named: F1 within residue: .R<MOL 98>
+Created a new atom named: F2 within residue: .R<MOL 98>
+Created a new atom named: F3 within residue: .R<MOL 98>
+Created a new atom named: O1 within residue: .R<MOL 98>
+Created a new atom named: C1 within residue: .R<MOL 98>
+Created a new atom named: C2 within residue: .R<MOL 98>
+Creating new UNIT for residue: MOL sequence: 99
+Created a new atom named: F1 within residue: .R<MOL 99>
+Created a new atom named: F2 within residue: .R<MOL 99>
+Created a new atom named: F3 within residue: .R<MOL 99>
+Created a new atom named: O1 within residue: .R<MOL 99>
+Created a new atom named: C1 within residue: .R<MOL 99>
+Created a new atom named: C2 within residue: .R<MOL 99>
+Creating new UNIT for residue: MOL sequence: 100
+Created a new atom named: F1 within residue: .R<MOL 100>
+Created a new atom named: F2 within residue: .R<MOL 100>
+Created a new atom named: F3 within residue: .R<MOL 100>
+Created a new atom named: O1 within residue: .R<MOL 100>
+Created a new atom named: C1 within residue: .R<MOL 100>
+Created a new atom named: C2 within residue: .R<MOL 100>
+Creating new UNIT for residue: MOL sequence: 101
+Created a new atom named: F1 within residue: .R<MOL 101>
+Created a new atom named: F2 within residue: .R<MOL 101>
+Created a new atom named: F3 within residue: .R<MOL 101>
+Created a new atom named: O1 within residue: .R<MOL 101>
+Created a new atom named: C1 within residue: .R<MOL 101>
+Created a new atom named: C2 within residue: .R<MOL 101>
+Creating new UNIT for residue: MOL sequence: 102
+Created a new atom named: F1 within residue: .R<MOL 102>
+Created a new atom named: F2 within residue: .R<MOL 102>
+Created a new atom named: F3 within residue: .R<MOL 102>
+Created a new atom named: O1 within residue: .R<MOL 102>
+Created a new atom named: C1 within residue: .R<MOL 102>
+Created a new atom named: C2 within residue: .R<MOL 102>
+Creating new UNIT for residue: MOL sequence: 103
+Created a new atom named: F1 within residue: .R<MOL 103>
+Created a new atom named: F2 within residue: .R<MOL 103>
+Created a new atom named: F3 within residue: .R<MOL 103>
+Created a new atom named: O1 within residue: .R<MOL 103>
+Created a new atom named: C1 within residue: .R<MOL 103>
+Created a new atom named: C2 within residue: .R<MOL 103>
+Creating new UNIT for residue: MOL sequence: 104
+Created a new atom named: F1 within residue: .R<MOL 104>
+Created a new atom named: F2 within residue: .R<MOL 104>
+Created a new atom named: F3 within residue: .R<MOL 104>
+Created a new atom named: O1 within residue: .R<MOL 104>
+Created a new atom named: C1 within residue: .R<MOL 104>
+Created a new atom named: C2 within residue: .R<MOL 104>
+Creating new UNIT for residue: MOL sequence: 105
+Created a new atom named: F1 within residue: .R<MOL 105>
+Created a new atom named: F2 within residue: .R<MOL 105>
+Created a new atom named: F3 within residue: .R<MOL 105>
+Created a new atom named: O1 within residue: .R<MOL 105>
+Created a new atom named: C1 within residue: .R<MOL 105>
+Created a new atom named: C2 within residue: .R<MOL 105>
+Creating new UNIT for residue: MOL sequence: 106
+Created a new atom named: F1 within residue: .R<MOL 106>
+Created a new atom named: F2 within residue: .R<MOL 106>
+Created a new atom named: F3 within residue: .R<MOL 106>
+Created a new atom named: O1 within residue: .R<MOL 106>
+Created a new atom named: C1 within residue: .R<MOL 106>
+Created a new atom named: C2 within residue: .R<MOL 106>
+Creating new UNIT for residue: MOL sequence: 107
+Created a new atom named: F1 within residue: .R<MOL 107>
+Created a new atom named: F2 within residue: .R<MOL 107>
+Created a new atom named: F3 within residue: .R<MOL 107>
+Created a new atom named: O1 within residue: .R<MOL 107>
+Created a new atom named: C1 within residue: .R<MOL 107>
+Created a new atom named: C2 within residue: .R<MOL 107>
+Creating new UNIT for residue: MOL sequence: 108
+Created a new atom named: F1 within residue: .R<MOL 108>
+Created a new atom named: F2 within residue: .R<MOL 108>
+Created a new atom named: F3 within residue: .R<MOL 108>
+Created a new atom named: O1 within residue: .R<MOL 108>
+Created a new atom named: C1 within residue: .R<MOL 108>
+Created a new atom named: C2 within residue: .R<MOL 108>
+Creating new UNIT for residue: MOL sequence: 109
+Created a new atom named: F1 within residue: .R<MOL 109>
+Created a new atom named: F2 within residue: .R<MOL 109>
+Created a new atom named: F3 within residue: .R<MOL 109>
+Created a new atom named: O1 within residue: .R<MOL 109>
+Created a new atom named: C1 within residue: .R<MOL 109>
+Created a new atom named: C2 within residue: .R<MOL 109>
+Creating new UNIT for residue: MOL sequence: 110
+Created a new atom named: F1 within residue: .R<MOL 110>
+Created a new atom named: F2 within residue: .R<MOL 110>
+Created a new atom named: F3 within residue: .R<MOL 110>
+Created a new atom named: O1 within residue: .R<MOL 110>
+Created a new atom named: C1 within residue: .R<MOL 110>
+Created a new atom named: C2 within residue: .R<MOL 110>
+Creating new UNIT for residue: MOL sequence: 111
+Created a new atom named: F1 within residue: .R<MOL 111>
+Created a new atom named: F2 within residue: .R<MOL 111>
+Created a new atom named: F3 within residue: .R<MOL 111>
+Created a new atom named: O1 within residue: .R<MOL 111>
+Created a new atom named: C1 within residue: .R<MOL 111>
+Created a new atom named: C2 within residue: .R<MOL 111>
+Creating new UNIT for residue: MOL sequence: 112
+Created a new atom named: F1 within residue: .R<MOL 112>
+Created a new atom named: F2 within residue: .R<MOL 112>
+Created a new atom named: F3 within residue: .R<MOL 112>
+Created a new atom named: O1 within residue: .R<MOL 112>
+Created a new atom named: C1 within residue: .R<MOL 112>
+Created a new atom named: C2 within residue: .R<MOL 112>
+Creating new UNIT for residue: MOL sequence: 113
+Created a new atom named: F1 within residue: .R<MOL 113>
+Created a new atom named: F2 within residue: .R<MOL 113>
+Created a new atom named: F3 within residue: .R<MOL 113>
+Created a new atom named: O1 within residue: .R<MOL 113>
+Created a new atom named: C1 within residue: .R<MOL 113>
+Created a new atom named: C2 within residue: .R<MOL 113>
+Creating new UNIT for residue: MOL sequence: 114
+Created a new atom named: F1 within residue: .R<MOL 114>
+Created a new atom named: F2 within residue: .R<MOL 114>
+Created a new atom named: F3 within residue: .R<MOL 114>
+Created a new atom named: O1 within residue: .R<MOL 114>
+Created a new atom named: C1 within residue: .R<MOL 114>
+Created a new atom named: C2 within residue: .R<MOL 114>
+Creating new UNIT for residue: MOL sequence: 115
+Created a new atom named: F1 within residue: .R<MOL 115>
+Created a new atom named: F2 within residue: .R<MOL 115>
+Created a new atom named: F3 within residue: .R<MOL 115>
+Created a new atom named: O1 within residue: .R<MOL 115>
+Created a new atom named: C1 within residue: .R<MOL 115>
+Created a new atom named: C2 within residue: .R<MOL 115>
+Creating new UNIT for residue: MOL sequence: 116
+Created a new atom named: F1 within residue: .R<MOL 116>
+Created a new atom named: F2 within residue: .R<MOL 116>
+Created a new atom named: F3 within residue: .R<MOL 116>
+Created a new atom named: O1 within residue: .R<MOL 116>
+Created a new atom named: C1 within residue: .R<MOL 116>
+Created a new atom named: C2 within residue: .R<MOL 116>
+Creating new UNIT for residue: MOL sequence: 117
+Created a new atom named: F1 within residue: .R<MOL 117>
+Created a new atom named: F2 within residue: .R<MOL 117>
+Created a new atom named: F3 within residue: .R<MOL 117>
+Created a new atom named: O1 within residue: .R<MOL 117>
+Created a new atom named: C1 within residue: .R<MOL 117>
+Created a new atom named: C2 within residue: .R<MOL 117>
+Creating new UNIT for residue: MOL sequence: 118
+Created a new atom named: F1 within residue: .R<MOL 118>
+Created a new atom named: F2 within residue: .R<MOL 118>
+Created a new atom named: F3 within residue: .R<MOL 118>
+Created a new atom named: O1 within residue: .R<MOL 118>
+Created a new atom named: C1 within residue: .R<MOL 118>
+Created a new atom named: C2 within residue: .R<MOL 118>
+Creating new UNIT for residue: MOL sequence: 119
+Created a new atom named: F1 within residue: .R<MOL 119>
+Created a new atom named: F2 within residue: .R<MOL 119>
+Created a new atom named: F3 within residue: .R<MOL 119>
+Created a new atom named: O1 within residue: .R<MOL 119>
+Created a new atom named: C1 within residue: .R<MOL 119>
+Created a new atom named: C2 within residue: .R<MOL 119>
+Creating new UNIT for residue: MOL sequence: 120
+Created a new atom named: F1 within residue: .R<MOL 120>
+Created a new atom named: F2 within residue: .R<MOL 120>
+Created a new atom named: F3 within residue: .R<MOL 120>
+Created a new atom named: O1 within residue: .R<MOL 120>
+Created a new atom named: C1 within residue: .R<MOL 120>
+Created a new atom named: C2 within residue: .R<MOL 120>
+Creating new UNIT for residue: MOL sequence: 121
+Created a new atom named: F1 within residue: .R<MOL 121>
+Created a new atom named: F2 within residue: .R<MOL 121>
+Created a new atom named: F3 within residue: .R<MOL 121>
+Created a new atom named: O1 within residue: .R<MOL 121>
+Created a new atom named: C1 within residue: .R<MOL 121>
+Created a new atom named: C2 within residue: .R<MOL 121>
+Creating new UNIT for residue: MOL sequence: 122
+Created a new atom named: F1 within residue: .R<MOL 122>
+Created a new atom named: F2 within residue: .R<MOL 122>
+Created a new atom named: F3 within residue: .R<MOL 122>
+Created a new atom named: O1 within residue: .R<MOL 122>
+Created a new atom named: C1 within residue: .R<MOL 122>
+Created a new atom named: C2 within residue: .R<MOL 122>
+Creating new UNIT for residue: MOL sequence: 123
+Created a new atom named: F1 within residue: .R<MOL 123>
+Created a new atom named: F2 within residue: .R<MOL 123>
+Created a new atom named: F3 within residue: .R<MOL 123>
+Created a new atom named: O1 within residue: .R<MOL 123>
+Created a new atom named: C1 within residue: .R<MOL 123>
+Created a new atom named: C2 within residue: .R<MOL 123>
+Creating new UNIT for residue: MOL sequence: 124
+Created a new atom named: F1 within residue: .R<MOL 124>
+Created a new atom named: F2 within residue: .R<MOL 124>
+Created a new atom named: F3 within residue: .R<MOL 124>
+Created a new atom named: O1 within residue: .R<MOL 124>
+Created a new atom named: C1 within residue: .R<MOL 124>
+Created a new atom named: C2 within residue: .R<MOL 124>
+Creating new UNIT for residue: MOL sequence: 125
+Created a new atom named: F1 within residue: .R<MOL 125>
+Created a new atom named: F2 within residue: .R<MOL 125>
+Created a new atom named: F3 within residue: .R<MOL 125>
+Created a new atom named: O1 within residue: .R<MOL 125>
+Created a new atom named: C1 within residue: .R<MOL 125>
+Created a new atom named: C2 within residue: .R<MOL 125>
+Creating new UNIT for residue: MOL sequence: 126
+Created a new atom named: F1 within residue: .R<MOL 126>
+Created a new atom named: F2 within residue: .R<MOL 126>
+Created a new atom named: F3 within residue: .R<MOL 126>
+Created a new atom named: O1 within residue: .R<MOL 126>
+Created a new atom named: C1 within residue: .R<MOL 126>
+Created a new atom named: C2 within residue: .R<MOL 126>
+Creating new UNIT for residue: MOL sequence: 127
+Created a new atom named: F1 within residue: .R<MOL 127>
+Created a new atom named: F2 within residue: .R<MOL 127>
+Created a new atom named: F3 within residue: .R<MOL 127>
+Created a new atom named: O1 within residue: .R<MOL 127>
+Created a new atom named: C1 within residue: .R<MOL 127>
+Created a new atom named: C2 within residue: .R<MOL 127>
+Creating new UNIT for residue: MOL sequence: 128
+Created a new atom named: F1 within residue: .R<MOL 128>
+Created a new atom named: F2 within residue: .R<MOL 128>
+Created a new atom named: F3 within residue: .R<MOL 128>
+Created a new atom named: O1 within residue: .R<MOL 128>
+Created a new atom named: C1 within residue: .R<MOL 128>
+Created a new atom named: C2 within residue: .R<MOL 128>
+Creating new UNIT for residue: MOL sequence: 129
+Created a new atom named: F1 within residue: .R<MOL 129>
+Created a new atom named: F2 within residue: .R<MOL 129>
+Created a new atom named: F3 within residue: .R<MOL 129>
+Created a new atom named: O1 within residue: .R<MOL 129>
+Created a new atom named: C1 within residue: .R<MOL 129>
+Created a new atom named: C2 within residue: .R<MOL 129>
+Creating new UNIT for residue: MOL sequence: 130
+Created a new atom named: F1 within residue: .R<MOL 130>
+Created a new atom named: F2 within residue: .R<MOL 130>
+Created a new atom named: F3 within residue: .R<MOL 130>
+Created a new atom named: O1 within residue: .R<MOL 130>
+Created a new atom named: C1 within residue: .R<MOL 130>
+Created a new atom named: C2 within residue: .R<MOL 130>
+Creating new UNIT for residue: MOL sequence: 131
+Created a new atom named: F1 within residue: .R<MOL 131>
+Created a new atom named: F2 within residue: .R<MOL 131>
+Created a new atom named: F3 within residue: .R<MOL 131>
+Created a new atom named: O1 within residue: .R<MOL 131>
+Created a new atom named: C1 within residue: .R<MOL 131>
+Created a new atom named: C2 within residue: .R<MOL 131>
+Creating new UNIT for residue: MOL sequence: 132
+Created a new atom named: F1 within residue: .R<MOL 132>
+Created a new atom named: F2 within residue: .R<MOL 132>
+Created a new atom named: F3 within residue: .R<MOL 132>
+Created a new atom named: O1 within residue: .R<MOL 132>
+Created a new atom named: C1 within residue: .R<MOL 132>
+Created a new atom named: C2 within residue: .R<MOL 132>
+  total atoms in file: 897
+  Leap added 297 missing atoms according to residue templates:
+       297 H / lone pairs
+  The file contained 601 atoms not in residue templates
+ (using default radius 1.500000 for OXT)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+  Solute vdw bounding box:              53.667 61.781 63.750
+  Total bounding box for atom centers:  83.750 83.750 83.750
+      (box expansion for 'iso' is  16.4%)
+  Solvent unit box:                     18.774 18.774 18.774
+ (using default radius 1.500000 for OXT)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+ (using default radius 1.500000 for F1)
+ (using default radius 1.500000 for F2)
+ (using default radius 1.500000 for F3)
+ (using default radius 1.500000 for O1)
+ (using default radius 1.500000 for C1)
+ (using default radius 1.500000 for C2)
+  Volume: 654068.352 A^3 
+  Mass > 311542.940 amu,  Density > 0.791 g/cc
+      (type - hence mass - of one or more atoms could not be found)
+  Added 17059 residues.
+Adding 11 counter ions to "x" using 1A grid
+Used default radius  1.50 for 601 atoms
+Grid extends from solute vdw + 5.75  to  11.75
+Resolution:      1.00 Angstrom.
+Solvent present: replacing closest with ion
+	 when steric overlaps occur
+Calculating grid charges
+(Replacing solvent molecule)
+Placed Cl- in x at (8.19, -3.50, -11.29).
+(Replacing solvent molecule)
+Placed Cl- in x at (7.45, 11.03, -1.77).
+(Replacing solvent molecule)
+Placed Cl- in x at (-26.63, -2.84, -12.12).
+(Replacing solvent molecule)
+Placed Cl- in x at (6.93, -11.57, -7.05).
+(Replacing solvent molecule)
+Placed Cl- in x at (-4.04, 9.04, -6.49).
+(Replacing solvent molecule)
+Placed Cl- in x at (18.93, -15.12, 0.33).
+(Replacing solvent molecule)
+Placed Cl- in x at (-27.13, 4.87, -4.42).
+(Replacing solvent molecule)
+Placed Cl- in x at (-8.38, 6.93, 7.08).
+(Replacing solvent molecule)
+Placed Cl- in x at (17.49, -7.27, -14.96).
+(Replacing solvent molecule)
+Placed Cl- in x at (-21.62, -2.19, -18.42).
+(Replacing solvent molecule)
+Placed Cl- in x at (-0.17, -9.61, 5.81).
+
+Done adding ions.
+Checking Unit.
+FATAL:  Atom .R<PRO 32>.A<OXT 15> does not have a type.
+FATAL:  Atom .R<MOL 33>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 33>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 33>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 33>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 33>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 33>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 34>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 34>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 34>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 34>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 34>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 34>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 35>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 35>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 35>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 35>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 35>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 35>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 36>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 36>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 36>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 36>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 36>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 36>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 37>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 37>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 37>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 37>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 37>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 37>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 38>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 38>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 38>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 38>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 38>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 38>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 39>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 39>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 39>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 39>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 39>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 39>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 40>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 40>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 40>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 40>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 40>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 40>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 41>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 41>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 41>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 41>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 41>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 41>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 42>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 42>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 42>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 42>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 42>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 42>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 43>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 43>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 43>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 43>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 43>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 43>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 44>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 44>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 44>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 44>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 44>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 44>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 45>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 45>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 45>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 45>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 45>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 45>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 46>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 46>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 46>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 46>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 46>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 46>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 47>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 47>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 47>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 47>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 47>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 47>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 48>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 48>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 48>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 48>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 48>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 48>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 49>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 49>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 49>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 49>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 49>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 49>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 50>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 50>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 50>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 50>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 50>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 50>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 51>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 51>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 51>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 51>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 51>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 51>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 52>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 52>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 52>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 52>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 52>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 52>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 53>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 53>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 53>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 53>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 53>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 53>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 54>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 54>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 54>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 54>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 54>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 54>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 55>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 55>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 55>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 55>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 55>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 55>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 56>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 56>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 56>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 56>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 56>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 56>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 57>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 57>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 57>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 57>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 57>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 57>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 58>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 58>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 58>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 58>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 58>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 58>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 59>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 59>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 59>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 59>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 59>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 59>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 60>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 60>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 60>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 60>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 60>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 60>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 61>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 61>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 61>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 61>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 61>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 61>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 62>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 62>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 62>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 62>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 62>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 62>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 63>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 63>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 63>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 63>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 63>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 63>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 64>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 64>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 64>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 64>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 64>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 64>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 65>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 65>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 65>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 65>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 65>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 65>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 66>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 66>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 66>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 66>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 66>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 66>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 67>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 67>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 67>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 67>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 67>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 67>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 68>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 68>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 68>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 68>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 68>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 68>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 69>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 69>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 69>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 69>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 69>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 69>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 70>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 70>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 70>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 70>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 70>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 70>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 71>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 71>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 71>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 71>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 71>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 71>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 72>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 72>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 72>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 72>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 72>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 72>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 73>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 73>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 73>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 73>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 73>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 73>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 74>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 74>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 74>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 74>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 74>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 74>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 75>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 75>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 75>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 75>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 75>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 75>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 76>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 76>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 76>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 76>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 76>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 76>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 77>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 77>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 77>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 77>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 77>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 77>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 78>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 78>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 78>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 78>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 78>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 78>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 79>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 79>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 79>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 79>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 79>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 79>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 80>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 80>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 80>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 80>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 80>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 80>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 81>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 81>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 81>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 81>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 81>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 81>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 82>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 82>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 82>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 82>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 82>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 82>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 83>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 83>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 83>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 83>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 83>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 83>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 84>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 84>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 84>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 84>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 84>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 84>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 85>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 85>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 85>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 85>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 85>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 85>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 86>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 86>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 86>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 86>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 86>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 86>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 87>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 87>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 87>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 87>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 87>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 87>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 88>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 88>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 88>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 88>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 88>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 88>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 89>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 89>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 89>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 89>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 89>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 89>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 90>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 90>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 90>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 90>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 90>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 90>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 91>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 91>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 91>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 91>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 91>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 91>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 92>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 92>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 92>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 92>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 92>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 92>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 93>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 93>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 93>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 93>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 93>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 93>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 94>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 94>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 94>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 94>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 94>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 94>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 95>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 95>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 95>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 95>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 95>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 95>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 96>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 96>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 96>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 96>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 96>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 96>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 97>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 97>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 97>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 97>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 97>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 97>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 98>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 98>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 98>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 98>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 98>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 98>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 99>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 99>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 99>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 99>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 99>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 99>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 100>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 100>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 100>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 100>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 100>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 100>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 101>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 101>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 101>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 101>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 101>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 101>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 102>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 102>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 102>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 102>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 102>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 102>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 103>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 103>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 103>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 103>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 103>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 103>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 104>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 104>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 104>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 104>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 104>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 104>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 105>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 105>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 105>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 105>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 105>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 105>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 106>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 106>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 106>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 106>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 106>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 106>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 107>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 107>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 107>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 107>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 107>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 107>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 108>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 108>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 108>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 108>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 108>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 108>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 109>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 109>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 109>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 109>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 109>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 109>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 110>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 110>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 110>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 110>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 110>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 110>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 111>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 111>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 111>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 111>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 111>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 111>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 112>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 112>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 112>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 112>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 112>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 112>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 113>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 113>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 113>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 113>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 113>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 113>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 114>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 114>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 114>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 114>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 114>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 114>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 115>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 115>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 115>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 115>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 115>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 115>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 116>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 116>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 116>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 116>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 116>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 116>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 117>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 117>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 117>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 117>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 117>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 117>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 118>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 118>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 118>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 118>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 118>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 118>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 119>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 119>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 119>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 119>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 119>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 119>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 120>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 120>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 120>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 120>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 120>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 120>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 121>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 121>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 121>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 121>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 121>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 121>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 122>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 122>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 122>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 122>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 122>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 122>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 123>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 123>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 123>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 123>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 123>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 123>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 124>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 124>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 124>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 124>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 124>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 124>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 125>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 125>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 125>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 125>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 125>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 125>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 126>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 126>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 126>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 126>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 126>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 126>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 127>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 127>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 127>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 127>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 127>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 127>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 128>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 128>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 128>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 128>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 128>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 128>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 129>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 129>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 129>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 129>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 129>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 129>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 130>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 130>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 130>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 130>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 130>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 130>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 131>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 131>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 131>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 131>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 131>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 131>.A<C2 6> does not have a type.
+FATAL:  Atom .R<MOL 132>.A<F1 1> does not have a type.
+FATAL:  Atom .R<MOL 132>.A<F2 2> does not have a type.
+FATAL:  Atom .R<MOL 132>.A<F3 3> does not have a type.
+FATAL:  Atom .R<MOL 132>.A<O1 4> does not have a type.
+FATAL:  Atom .R<MOL 132>.A<C1 5> does not have a type.
+FATAL:  Atom .R<MOL 132>.A<C2 6> does not have a type.
+
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Fatal Error!
+Failed to generate parameters
+
+Exiting LEaP: Errors = 1; Warnings = 102; Notes = 0.
