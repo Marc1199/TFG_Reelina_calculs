@@ -15,7 +15,7 @@ structure sequencies/sequencia_10.pdb
 end structure
 
 # Moléculas de TFE distribuidas dentro de un cubo
-structure TFE.pdb
+structure prepare_TFE/TFE.pdb
   number 250     # Número de moléculas de TFE
   inside box -25.0 -25.0 -25.0 25.0 25.0 25.0  # Define un cubo de 40 Å de lado
 end structure

@@ -40,7 +40,7 @@ structure $sequence_file
 end structure
 
 # Moléculas de TFE distribuidas dentro de un cubo
-structure TFE.pdb
+structure prepare_TFE/TFE.pdb
   number $tfe_count     # Número de moléculas de TFE
   inside box -25.0 -25.0 -25.0 25.0 25.0 25.0  # Define un cubo de 40 Å de lado
 end structure
@@ -50,5 +50,5 @@ done
 
 echo "✅ Archivos .inp guardados en: $inp_folder"
 
-#for file in inp_files/*.inp; do packmol < "$file"; done
+for file in inp_files/*.inp; do packmol < "$file"; done
 

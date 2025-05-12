@@ -1,16 +1,17 @@
 source leaprc.protein.ff14SB
 source leaprc.water.tip3p
 source leaprc.gaff
-loadAmberParams TFE.frcmod
-TFE = loadMol2 TFE.mol2
+loadamberprep prepare_TFE/TFE.prepin
+loadAmberParams prepare_TFE/TFE.frcmod
+TFE = loadMol2 prepare_TFE/TFE.mol2
 set default PBRadii mbondi3
 x = loadPDB tmp_generados/sequencia_0_TFE_5_noH.pdb
 
-# Solvatizar con agua TIP3P
+# Solvatar con agua TIP3P
 solvateBox x TIP3PBOX 10.0 iso
 
 # Neutralizar el sistema con Cl-
 addions x Cl- 11
-
+savePDB x tmp_generados/sequencia_0_TFE_5_wat.pdb
 saveAmberParm x seq_parm7_rst7/sequencia_0_TFE_5_wat.parm7 seq_parm7_rst7/sequencia_0_TFE_5_wat.rst7
 quit
