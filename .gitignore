@@ -1,0 +1,9 @@
+ANTECHAMBER*
+ATOMTYPE*
+NEWPDB*
+PREP*
+sqm*
+tmp_generados/
+inp_files/
+*.log
+*.out
