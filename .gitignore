@@ -7,3 +7,6 @@ tmp_generados/
 inp_files/
 *.log
 *.out
+*.tar
+*.gz
+kk

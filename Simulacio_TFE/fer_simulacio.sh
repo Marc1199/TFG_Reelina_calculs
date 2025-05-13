@@ -7,19 +7,22 @@
 #SBATCH --mem=2GB                       # Memòria assignada
 #SBATCH --partition=highmem             # Tipus de partició 
 
-export AMBERHOME=~/Software/amber24
-export PATH=$AMBERHOME/bin:$PATH
+#Afegir les línes al .bashrc
+#export AMBERHOME=~/Software/amber24
+#export PATH=$AMBERHOME/bin:$PATH
 
+######################################################
 # Directorio donde están los archivos
 DIRECTORIO=~/TFG_reelina_calculs/Simulacio_TFE/seq_parm7_rst7
 # Directorio donde se guardarán las salidas
 SALIDAS_DIR=~/sortides_TFE
+#####################################################
 
 # Crear el directorio de salidas si no existe
 mkdir -p $SALIDAS_DIR
 
 # Iterar sobre los archivos en el directorio
-for parm_file in $DIRECTORIO/*.parm7; do
+for parm_file in $DIRECTORIO/sequencia_0_*.parm7; do
     # Obtener el nombre base del archivo sin la extensión
     base_name=$(basename $parm_file .parm7)
     rst_file="$DIRECTORIO/$base_name.rst7"
