@@ -50,5 +50,8 @@ done
 
 echo "✅ Archivos .inp guardados en: $inp_folder"
 
-for file in inp_files/*.inp; do packmol < "$file"; done
+for file in inp_files/*.inp 
+do packmol < "$file"
+#instruccions mutació
+done
 

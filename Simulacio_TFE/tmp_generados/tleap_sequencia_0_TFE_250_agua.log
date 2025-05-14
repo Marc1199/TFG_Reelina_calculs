@@ -1,49 +1,49 @@
--I: Adding /home/jordivilla/Software/amber24/dat/leap/prep to search path.
--I: Adding /home/jordivilla/Software/amber24/dat/leap/lib to search path.
--I: Adding /home/jordivilla/Software/amber24/dat/leap/parm to search path.
--I: Adding /home/jordivilla/Software/amber24/dat/leap/cmd to search path.
+-I: Adding /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/prep to search path.
+-I: Adding /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/lib to search path.
+-I: Adding /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm to search path.
+-I: Adding /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd to search path.
 -s: Ignoring all leaprc startup files.
 -f: Source tmp_generados/leap_sequencia_0_TFE_250_agua.inp.
 
 Welcome to LEaP!
 Sourcing: ./tmp_generados/leap_sequencia_0_TFE_250_agua.inp
------ Source: /home/jordivilla/Software/amber24/dat/leap/cmd/leaprc.protein.ff14SB
------ Source of /home/jordivilla/Software/amber24/dat/leap/cmd/leaprc.protein.ff14SB done
+----- Source: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd/leaprc.protein.ff14SB done
 Log file: ./leap.log
-Loading parameters: /home/jordivilla/Software/amber24/dat/leap/parm/parm10.dat
+Loading parameters: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm/parm10.dat
 Reading title:
 PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
-Loading parameters: /home/jordivilla/Software/amber24/dat/leap/parm/frcmod.ff14SB
+Loading parameters: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm/frcmod.ff14SB
 Reading force field modification type file (frcmod)
 Reading title:
 ff14SB protein backbone and sidechain parameters
-Loading library: /home/jordivilla/Software/amber24/dat/leap/lib/amino12.lib
-Loading library: /home/jordivilla/Software/amber24/dat/leap/lib/aminoct12.lib
-Loading library: /home/jordivilla/Software/amber24/dat/leap/lib/aminont12.lib
------ Source: /home/jordivilla/Software/amber24/dat/leap/cmd/leaprc.water.tip3p
------ Source of /home/jordivilla/Software/amber24/dat/leap/cmd/leaprc.water.tip3p done
-Loading library: /home/jordivilla/Software/amber24/dat/leap/lib/atomic_ions.lib
-Loading library: /home/jordivilla/Software/amber24/dat/leap/lib/solvents.lib
-Loading parameters: /home/jordivilla/Software/amber24/dat/leap/parm/frcmod.tip3p
+Loading library: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/lib/amino12.lib
+Loading library: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/lib/aminoct12.lib
+Loading library: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/lib/aminont12.lib
+----- Source: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/lib/atomic_ions.lib
+Loading library: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/lib/solvents.lib
+Loading parameters: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm/frcmod.tip3p
 Reading force field modification type file (frcmod)
 Reading title:
 This is the additional/replacement parameter set for TIP3P water
-Loading parameters: /home/jordivilla/Software/amber24/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Loading parameters: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm/frcmod.ions1lm_126_tip3p
 Reading force field modification type file (frcmod)
 Reading title:
 Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
-Loading parameters: /home/jordivilla/Software/amber24/dat/leap/parm/frcmod.ionsjc_tip3p
+Loading parameters: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm/frcmod.ionsjc_tip3p
 Reading force field modification type file (frcmod)
 Reading title:
 Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
-Loading parameters: /home/jordivilla/Software/amber24/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Loading parameters: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm/frcmod.ions234lm_126_tip3p
 Reading force field modification type file (frcmod)
 Reading title:
 Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
------ Source: /home/jordivilla/Software/amber24/dat/leap/cmd/leaprc.gaff
------ Source of /home/jordivilla/Software/amber24/dat/leap/cmd/leaprc.gaff done
+----- Source: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd/leaprc.gaff
+----- Source of /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/cmd/leaprc.gaff done
 Log file: ./leap.log
-Loading parameters: /home/jordivilla/Software/amber24/dat/leap/parm/gaff.dat
+Loading parameters: /mnt/d/Marc/TFG/Simulacions_amber/software/amber24/dat/leap/parm/gaff.dat
 Reading title:
 AMBER General Force Field for organic molecules (Version 1.81, May 2017)
 Loading Prep file: ./prepare_TFE/TFE.prepin
@@ -56,7 +56,7 @@ Reading MOLECULE named TFE
 Using ArgH and AspGluO modified Bondi2 radii
 Loading PDB file: ./tmp_generados/sequencia_0_TFE_250_noH.pdb
 
-/home/jordivilla/Software/amber24/bin/teLeap: Warning!
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
 One sided connection. Residue (TFE) missing connect0 atom.
   total atoms in file: 1796
   Leap added 1047 missing atoms according to residue templates:
@@ -101,17 +101,17 @@ Done adding ions.
 Writing pdb file: tmp_generados/sequencia_0_TFE_250_wat.pdb
    printing CRYST1 record to PDB file with box info
 
-/home/jordivilla/Software/amber24/bin/teLeap: Warning!
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
  Converting N-terminal residue name to PDB format: NSER -> SER
 Checking Unit.
 
-/home/jordivilla/Software/amber24/bin/teLeap: Warning!
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
 The unperturbed charge of the unit (0.249750) is not integral.
 
-/home/jordivilla/Software/amber24/bin/teLeap: Warning!
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Warning!
 The unperturbed charge of the unit (0.249750) is not zero.
 
-/home/jordivilla/Software/amber24/bin/teLeap: Note.
+/mnt/d/Marc/TFG/Simulacions_amber/software/amber24/bin/teLeap: Note.
 Ignoring the warnings from Unit Checking.
 
 Building topology.

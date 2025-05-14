@@ -1,0 +1,17 @@
+source leaprc.protein.ff14SB
+source leaprc.water.tip3p 
+source leaprc.gaff
+
+# Cargar parámetros de TFE
+loadamberprep /home/marct/TFG_Reelina_calculs/Simulacio_TFE/prepare_TFE/TFE.prepin
+loadAmberParams /home/marct/TFG_Reelina_calculs/Simulacio_TFE/prepare_TFE/TFE.frcmod
+TFE = loadMol2 /home/marct/TFG_Reelina_calculs/Simulacio_TFE/prepare_TFE/TFE.mol2
+
+# Cargar el PDB original
+mol = loadPdb /home/marct/TFG_Reelina_calculs/Simulacio_TFE_mut/conformacio_0_TFE_5_wat_mut.pdb
+
+# Guardar los archivos de parámetros y coordenadas finales
+saveAmberParm mol test.parm7 test.srt7
+
+# Salir de LEaP
+quit
