@@ -4,7 +4,7 @@
 sequences_folder="sequencies"
 inp_folder="inp_files"  # Carpeta para los archivos .inp
 output_folder="seq_pdb_generados"  # Carpeta para los archivos .pdb
-tfe_counts=(5 50 100 250 500)  # Cantidades de TFE por cada secuencia
+tfe_counts=(0 20 500)  # Cantidades de TFE por cada secuencia
 
 # Crear las carpetas de salida si no existen
 mkdir -p "$inp_folder"
