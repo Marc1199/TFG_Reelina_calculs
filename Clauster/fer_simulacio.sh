@@ -10,7 +10,7 @@
 # Directorio donde están los archivos
 DIRECTORIO=~/TFG_reelina_calculs/Clauster/conformacions
 # Directorio donde se guardarán las salidas
-SALIDAS_DIR=~/sortides_TFE
+SALIDAS_DIR=~/sortides_MD_reelina
 
 # Crear el directorio de salidas si no existe
 mkdir -p $SALIDAS_DIR
