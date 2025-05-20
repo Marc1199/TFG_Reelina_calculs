@@ -16,7 +16,7 @@ for num in {0..20}; do
     grupo_script="$SALIDAS_DIR/submit_group_${num}.sh"
     echo "Creando lista de espera para secuencias que comienzan con $num ..."
 
-    # Escribimos la cabecera del script usando un here document sin expansión (delimitador entre comillas simples)
+    # Escribir la cabecera del script utilizando un here document sin expansión
     cat << 'EOF' > "$grupo_script"
 #!/usr/bin/bash
 #SBATCH --job-name=Grupo_SEQS
@@ -26,18 +26,18 @@ for num in {0..20}; do
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=2GB
 #SBATCH --partition=highmem
-export AMBERHOME=~/Software/amber24
+
 export SALIDAS_DIR=~/sortides_MD_reelina
-export PATH=$AMBERHOME/bin:$PATH
+
 EOF
 
-    # Agregamos, al script de grupo, los comandos de simulación para cada secuencia cuyo nombre empiece por "sequencia_<num>"
-    for parm_file in "$DIRECTORIO"/sequencia_"$num"*parm7; do
-        # Obtener el nombre base del archivo sin la extensión
+    # Agregar los comandos de simulación para cada secuencia cuyo nombre contenga exactamente "sequencia_<num>_"
+    for parm_file in "$DIRECTORIO"/sequencia_"${num}"_*parm7; do
+        # Obtener el nombre base del archivo sin extensión
         base_name=$(basename "$parm_file" .parm7)
         rst_file="$DIRECTORIO/$base_name.rst7"
 
-        # Verificar que el archivo .rst7 existe
+        # Verificar que el archivo .rst7 correspondiente existe
         if [[ -f "$rst_file" ]]; then
             echo "  Agregando simulación para $base_name al grupo $num..."
             cat << EOF >> "$grupo_script"
@@ -52,6 +52,6 @@ EOF
         fi
     done
     echo "✅ Lista de espera creada para grupo $num: $grupo_script"
-    # Enviar el script de grupo al clúster
+    # Enviar el script de grupo a la cola del clúster
     sbatch "$grupo_script"
 done
